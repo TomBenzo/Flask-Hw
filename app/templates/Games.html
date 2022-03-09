@@ -1,0 +1,17 @@
+{% extends 'base.html' %} 
+
+
+{% block content %}
+    <h1 style="text-align:center">Video Games</h1>
+
+    <ul>
+        
+        {% for game in fave_games %}
+            <li>{{ game }}</li>
+        {% endfor %}
+
+
+    </ul>
+
+
+{% endblock content %} 

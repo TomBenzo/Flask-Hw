@@ -1,0 +1,15 @@
+{% extends 'base.html' %} 
+
+
+{% block content %}
+    <h1 style="text-align:center">Music Artists</h1>
+    <ul>
+        
+        {% for artist in fave_artists %}
+            <li>{{ artist }}</li>
+        {% endfor %}
+
+
+    </ul>
+
+{% endblock content %} 
